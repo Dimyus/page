@@ -1,0 +1,36 @@
+.descript{
+    padding: 75px 0;
+    background: #1C1C1C;
+    &__top{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 52px;
+    }
+    &__bottom{
+        display: flex;
+        justify-content: space-between;
+    }
+    &__block{
+        display: flex;
+        justify-content: space-between;
+        flex: 0 0 530px;
+        span{
+            font-size: 28px;
+            line-height: 27px;
+            color: #B6D7E8;
+            margin-right: 20px;
+            margin-top: 5px;
+        }
+    }
+    &__item{
+        h2{
+            color: #EDEDED;
+            line-height: 37px;         
+        }
+        p{
+            color: #EDEDED;
+            line-height: 22px;
+            margin-top: 20px;
+        }
+    }
+}

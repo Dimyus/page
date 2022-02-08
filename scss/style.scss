@@ -1,0 +1,37 @@
+@import "base/nullStyle";
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+li,
+p,
+div,
+a {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+  max-width: 1350px;
+  margin: 0 auto;
+}
+ 
+@import "block/_header.scss";
+@import "block/_footer.scss";
+@import "block/_about.scss";
+@import "block/_projects.scss";
+@import "block/_descript.scss";
+@import "block/_contact.scss";
+
+

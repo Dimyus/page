@@ -1,0 +1,105 @@
+.header{
+    &__wrapper{
+        height: 100vh;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+    &__c{
+        background-color: #1C1C1C;
+        &__top{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 52px 0;
+        }
+    }
+    &__top{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 70px;
+    }
+    &__logo{
+        a{
+            color: #fff;
+        }
+        h2{
+            color: #fff;
+            font-weight: bold;
+            font-size: 26px;
+            line-height: 33px;
+            span{
+                font-size: 22px;
+            }
+        }
+    }
+    &__main{
+        flex: 0 0 530px;
+      ul{
+          display: flex;
+          justify-content: space-between;
+          li{
+            a{
+                color: #C8C7C7;
+                font-size: 17px;
+                text-transform: uppercase;
+            }
+            a:hover{
+                color: #fff;
+                transition: 0.3s;
+            }
+            a:active{
+                color: #fff;
+            }
+          }
+      }  
+    }
+    &__left{
+        display: flex;
+        justify-content: space-between;
+        flex: 0 0 180px;
+        a{
+            color: #C8C7C7;
+            font-size: 20px;
+        }
+        a:hover{
+            color: #fff;
+            transition: 0.3s;
+        }
+    }
+    &__center{
+        p{
+            font-weight: bold;
+            font-size: 90px;
+            line-height: 115px;
+            color: #FFFFFF;
+            text-transform: uppercase;
+            margin: 215px 0 211px 161px;
+        }
+    }
+    &__bottom{
+        width: max-content;
+        p:first-child{
+            margin-bottom: 11px;
+        }
+        p:hover{
+            a{
+                color: #FFFFFF;
+            }
+            i{
+                color: #fff;
+            }
+        }
+        a{
+            color: #C8C7C7;
+        }
+        i{
+            color: #C8C7C7;
+            margin-right: 8px;
+        }
+       
+    }
+
+}
+
